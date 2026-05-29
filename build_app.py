@@ -65,11 +65,11 @@ const FONT = '-apple-system,"Helvetica Neue",Arial,sans-serif';
 const THB_RATE = 10139.94 / 310.66;  // implied rate from mockup (~32.64 THB/USD)
 
 const SPEC = {
-  sym:      {mask:[60,40,330,118],   bg:'rgb(16,16,17)', x:70,  base:110,  color:'rgb(247,249,252)', font:'700 80px'},
-  price:    {mask:[60,158,356,212],  bg:'rgb(16,16,17)', x:70,  base:203,  color:'rgb(247,249,252)', font:'700 54px'},
-  thb:      {mask:[350,158,700,212], bg:'rgb(16,16,17)', x:355, base:203,  color:'rgb(152,156,159)', font:'40px'},
-  val:      {mask:[55,1320,305,1440],bg:'rgb(37,37,37)', x:65,  base:1429, color:'rgb(124,127,129)', font:'700 132px'},
-  ordprice: {mask:[60,1867,500,1982],bg:'rgb(37,37,37)', x:65,  base:1967, color:'rgb(247,249,252)', font:'700 90px'}
+  sym:      {mask:[60,270,330,349],  bg:'rgb(16,16,17)', x:70,  base:339,  color:'rgb(247,249,252)', font:'700 80px'},
+  price:    {mask:[60,378,356,449],  bg:'rgb(16,16,17)', x:70,  base:439,  color:'rgb(247,249,252)', font:'700 54px'},
+  thb:      {mask:[350,385,700,442], bg:'rgb(16,16,17)', x:355, base:432,  color:'rgb(152,156,159)', font:'40px'},
+  val:      {mask:[55,1558,305,1670],bg:'rgb(37,37,37)', x:65,  base:1656, color:'rgb(124,127,129)', font:'700 132px'},
+  ordprice: {mask:[60,2095,500,2175],bg:'rgb(37,37,37)', x:65,  base:2158, color:'rgb(247,249,252)', font:'700 90px'}
 };
 
 const c = document.getElementById('c');
